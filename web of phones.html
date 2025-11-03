@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>new web</title>
+    <style>
+        body{
+            background-color: darkblue;
+        }
+        /* وسط‌چین کردن محتوا */
+        .container {
+            width: fit-content;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* تنظیمات برای قرارگیری سه عکس کنار هم */
+        .phone-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* فاصله بین عکس‌ها */
+            margin-top: 20px;
+            flex-wrap: wrap; /* اگر صفحه کوچک شد، بره خط بعد */
+        }
+
+        .phone-gallery img {
+            width: 300px;     /* اندازه عکس‌ها */
+            height: 200px;    /* ارتفاع ثابت */
+            object-fit: cover; /* عکس‌ها بدون کشیدگی نمایش داده بشن */
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .ssh:hover{
+            
+            transition: 1s;
+            transform: scale(1.1);
+        }
+        .ish:hover{
+            transition: 1s;
+            transform: scale(1.1);
+        }
+        .bsh:hover{
+             transition: 3s;
+            transform: scale(1.1);
+        }
+        .w{
+             width: fit-content;
+            margin: 0 auto;
+            text-align: center;
+            color: aliceblue;
+        }
+        .w{
+            font-size: 20px;
+        }
+        #r{
+            width: fit-content;
+            margin: 0 auto;
+            text-align: center;
+            color: aliceblue;
+        }
+        #t{
+             width: fit-content;
+            margin: 0 auto;
+            text-align: center;
+            color: aliceblue;
+        }
+        .y{
+            color: aliceblue;
+        }
+        #i{
+            width: fit-content;
+            margin: 0 auto;
+            text-align: center;
+            color: aliceblue;
+            font-size: 30px;
+        }
+        .g{
+           text-align: left;
+           background-color: darkblue;
+           color:#18FFD4;
+           font-size: 20px;
+        }
+        .g:hover{
+            text-decoration: underline;
+            color: red;
+           background-color: darkblue;
+             transition: 1s;
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+<body>
+
+ <button class="g">home</button>
+ <a href="first menu.html"><button class="g">prodducts</button></a>
+<div class="container">
+    <h1 class="y">this web is about comparing two phones : iphone and samsung</h1>
+    
+    <!-- گالری سه‌تایی عکس‌ها -->
+    <div class="phone-gallery">
+        <!-- عکس اول: سامسونگ -->
+         <div class="ssh">
+            <figure>
+        <a href="https://www.samsung.com"><img src="https://avandmobile.com/mag/wp-content/uploads/2023/08/230131-Samsung-Galaxy-S23-series-2-1.jpg" alt="Samsung"></a>
+        <figcaption style="color: aliceblue;">Sumsang</figcaption>
+        </figure>
+       
+         </div>
+        <!-- عکس دوم: آیفون -->
+         <div class="ish">
+            <figure>
+        <a href="https://www.iphone.com"><img src="https://bartardigital.com/wp-content/uploads/2024/05/iPhone-16-side-render.webp" alt="iPhone"></a>
+        <figcaption style="color: aliceblue;">Iphone <i class="ri-apple-fill"></i></figcaption>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+            </figure>
+           
+         </div>
+        <!-- عکس سوم: مثلاً مقایسه از زاویه دیگه یا مدل دیگه 
+         <div class="bsh">
+            <figure>
+        "<img src="https://www.technolife.com/wp-content/uploads/2021/12/galaxy-s22-ultra-and-iphone-13-pro-back-2000x1333F.jpg" alt="Comparison">
+        <figcaption style="color: aliceblue;">comparing <i class="ri-smartphone-fill"></i></figcaption>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+        -->
+            </figure>
+         </div>
+    </div>
+</div>
+<div class="w">
+<select name="com" id="w">
+    <option>iphone</option>
+    <option>samsung</option>
+</select>
+</div>
+<br>
+<br>
+<h2 id="r" style="color: red;">capability of samsung</h2>
+<pre id="r"><h3>Samsung smartphones offer a wide range of advanced features for everyday use.  
+They come with high-resolution Super AMOLED displays that deliver vibrant colors
+ and deep blacks.Most models support fast charging and wireless charging for
+  added convenience.  Samsung’s flagship devices include powerful processors
+ for smooth multitasking and gaming.The cameras are equipped with AI enhancements
+, offering stunning photos in any lighting condition.Samsung Knox provides strong
+ security to protect your data and privacy Many models are water and dust resistant
+ , making them durable in tough environments.  With One UI, the user experience is 
+ clean, customizable, and easy to navigate.  Samsung phones often support expandable 
+ storage via microSD cards.  They also integrate seamlessly with other Samsung devices
+ like smartwatches and tablets.</h3></pre>
+<br>
+<h2 id="t" style="color: red;">capability of iphone</h2>
+ <pre id="t"><h3>iPhones are known for their sleek design and premium build quality.  
+They feature powerful A-series chips that deliver fast performance and efficient
+ multitasking.The iOS operating system offers a smooth, secure, and user-friendly 
+ experience.iPhones come with high-quality Retina displays for sharp and vibrant
+ visuals.Their cameras include advanced features like cinematic mode, portrait
+lighting, and deep fusion.Face ID provides fast and secure authentication using
+facial recognition.Regular software updates ensure long-term support and improved
+ functionality.iPhones integrate seamlessly with other Apple products like AirPods
+, Apple Watch, and Mac.They support MagSafe accessories for easy wireless charging
+ and attachment.Privacy and data protection are core strengths of Apple’s ecosystem.</h3></pre>
+ <br>
+ <h2 id="t">you can check the website for samsung with <a href="https://www.samsung.com" style="color: red;">click here</a></h2>
+ <h2 id="t">you can check the website for iphone with <a href="https://www.iphone.com" style="color: red;" >click here</a></h2>
+ <br>
+ <br>
+ <div id="i">
+    what is name of your phone?
+    <input  type="radio" name="model" id="sam">
+    <label for="sam">samsung</label>
+     <input type="radio" name="model" id="ip">
+    <label for="ip">iphone</label>
+ </div>
+ 
+</body>
+</html>
+ 
+
